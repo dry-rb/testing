@@ -1,0 +1,4 @@
+format: "[pronto] %{level} - %{runner}: %{msg}"
+rubocop:
+  suggestions: true
+
