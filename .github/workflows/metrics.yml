@@ -29,6 +29,8 @@ jobs:
       PRONTO_GITHUB_ACCESS_TOKEN: ${{secrets.GH_PAT}}
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
