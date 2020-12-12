@@ -12,11 +12,11 @@ on:
 jobs:
   rubocop:
     runs-on: ubuntu-latest
+    env:
+      PRONTO_PULL_REQUEST_ID: ${{ github.event.pull_request.number }}
+      PRONTO_GITHUB_ACCESS_TOKEN: "${{ secrets.GH_PAT }}"
     steps:
       - uses: actions/checkout@v2
       - name: Get git refs
         run: git fetch --no-tags --prune origin +refs/heads/*:refs/remotes/origin/*
       - uses: solnic/pronto-rubocop-action@main
-        env:
-          PRONTO_PULL_REQUEST_ID: ${{ github.event.pull_request.number }}
-          PRONTO_GITHUB_ACCESS_TOKEN: "${{ secrets.GH_PAT }}"
