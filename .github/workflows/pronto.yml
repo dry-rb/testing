@@ -26,4 +26,4 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: solnic/pronto-rubocop-action@master
+        uses: solnic/pronto-rubocop-action@main
