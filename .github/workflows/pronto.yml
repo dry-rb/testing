@@ -25,8 +25,8 @@ jobs:
     name: A job to say hello
     steps:
       - uses: actions/checkout@v2
-      - run: |
-        git fetch --no-tags --prune --depth=10 origin +refs/heads/*:refs/remotes/origin/*
+        with:
+          fetch-depth: 10
       - uses: solnic/pronto-rubocop-action@main
         env:
           PRONTO_PULL_REQUEST_ID: ${{ github.event.pull_request.number }}
