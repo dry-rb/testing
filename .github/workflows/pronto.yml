@@ -1,0 +1,29 @@
+# this file is managed by dry-rb/devtools project
+
+name: pronto
+
+on:
+  push:
+    paths:
+      - ".github/workflows/ci.yml"
+      - "lib/**"
+      - "*.gemspec"
+      - "spec/**"
+      - "Rakefile"
+      - "Gemfile"
+      - "Gemfile.devtools"
+      - ".rubocop.yml"
+      - "project.yml"
+  pull_request:
+    branches:
+      - master
+  create:
+
+jobs:
+  rubocop:
+    runs-on: ubuntu-latest
+    name: A job to say hello
+    steps:
+      - name: Hello world action step
+        id: hello
+        uses: solnic/pronto-rubocop-action
