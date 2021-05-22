@@ -8,6 +8,7 @@ sources:
       - ".devtools/templates/*.sync:${{dir}}/${{name}}"
       - ".github/**/*.*"
       - "spec/*"
+      - "README.md"
       - "*"
   - repo: action-hero/workflows
     sync:
