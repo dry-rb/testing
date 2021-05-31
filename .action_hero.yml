@@ -6,7 +6,7 @@ sources:
       - ".action_hero.yml.erb"
       - ".devtools/templates/*.sync:${{dir}}/${{name}}"
       - ".github/**/*.*"
-      - "gemspec.erb:testing.gemspec"
+      - "gemspec.erb:dry-testing.gemspec"
       - "spec/support/*"
       - "CODE_OF_CONDUCT.md"
       - "CONTRIBUTING.md"
