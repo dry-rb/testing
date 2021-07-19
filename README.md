@@ -8,7 +8,7 @@
 # dry-testing [![Join the chat at https://dry-rb.zulipchat.com](https://img.shields.io/badge/dry--rb-join%20chat-%23346b7a.svg)][chat]
 
 [![Gem Version](https://badge.fury.io/rb/dry-testing.svg)][gem]
-[![CI Status](https://github.com/dry-rb/dry-testing/workflows/ci/badge.svg)][actions]
+[![CI Status](https://github.com/dry-rb/dry-testing/workflows/CI/badge.svg)][actions]
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/codacy-id)][codacy]
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/codacy-id)][codacy]
 [![Inline docs](http://inch-ci.org/github/dry-rb/dry-testing.svg?branch=master)][inchpages]
