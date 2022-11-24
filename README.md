@@ -1,19 +1,14 @@
 <!--- this file is synced from dry-rb/template-gem project -->
 [gem]: https://rubygems.org/gems/dry-testing
 [actions]: https://github.com/dry-rb/dry-testing/actions
-[codacy]: https://www.codacy.com/gh/dry-rb/dry-testing
-[chat]: https://dry-rb.zulipchat.com
-[inchpages]: http://inch-ci.org/github/dry-rb/dry-testing
 
-# dry-testing [![Join the chat at https://dry-rb.zulipchat.com](https://img.shields.io/badge/dry--rb-join%20chat-%23346b7a.svg)][chat]
-
-[![Gem Version](https://badge.fury.io/rb/dry-testing.svg)][gem]
-[![CI Status](https://github.com/dry-rb/dry-testing/workflows/ci/badge.svg)][actions]
+# dry-testing [![Gem Version](https://badge.fury.io/rb/dry-testing.svg)][gem] [![CI Status](https://github.com/dry-rb/dry-testing/workflows/ci/badge.svg)][actions]
 
 ## Links
 
 * [User documentation](https://dry-rb.org/gems/dry-testing)
 * [API documentation](http://rubydoc.info/gems/dry-testing)
+* [Forum](https://discourse.dry-rb.org)
 
 ## Supported Ruby versions
 
