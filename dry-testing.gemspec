@@ -8,8 +8,8 @@ require "dry/testing/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "dry-testing"
-  spec.authors       = ["Piotr Solnica"]
-  spec.email         = ["piotr.solnica@gmail.com"]
+  spec.authors       = ["Hanakai team"]
+  spec.email         = ["info@hanakai.org"]
   spec.license       = "MIT"
   spec.version       = Dry::Testing::VERSION.dup
 
@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.7.0"
 
-  # to update dependencies edit project.yml
-
-  spec.add_development_dependency "rake", "~> 13.0"
+  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "yard"
 end
