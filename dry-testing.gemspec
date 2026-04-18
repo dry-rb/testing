@@ -21,7 +21,6 @@ Gem::Specification.new do |spec|
   spec.executables   = []
   spec.require_paths = ["lib"]
 
-  spec.metadata["allowed_push_host"] = "https://rubygems.org"
   spec.metadata["changelog_uri"]     = "https://github.com/dry-rb/dry-testing/blob/main/CHANGELOG.md"
   spec.metadata["source_code_uri"]   = "https://github.com/dry-rb/dry-testing"
   spec.metadata["bug_tracker_uri"]   = "https://github.com/dry-rb/dry-testing/issues"
