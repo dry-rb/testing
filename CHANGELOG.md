@@ -19,7 +19,10 @@ and this project adheres to [Break Versioning](https://www.taoensso.com/break-ve
 
 ### Security
 
-[Unreleased]: https://github.com/dry-rb/dry-operation/compare/v1.12.0...main
+[Unreleased]: https://github.com/dry-rb/dry-operation/compare/v1.13.0...main
+
+## [1.13.0] - 2026-04-18
+[1.13.0]: https://github.com/dry-rb/testing/compare/v1.12.0...v1.13.0
 
 ## [1.12.0] - 2026-04-18
 [1.12.0]: https://github.com/dry-rb/testing/compare/v1.11.0...v1.12.0
